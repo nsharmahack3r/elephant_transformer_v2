@@ -1,0 +1,165 @@
+{
+  "dataset_overview": {
+    "total_rows": 2113936,
+    "total_elephants": 15,
+    "columns": [
+      "event-id",
+      "timestamp",
+      "location-long",
+      "location-lat",
+      "individual-local-identifier",
+      "LULC_class",
+      "aspect_deg",
+      "human_settle",
+      "elevation_m",
+      "slope_deg",
+      "EVI",
+      "LST_celsius",
+      "NDVI"
+    ],
+    "dtypes": {
+      "event-id": "int64",
+      "timestamp": "datetime64[us, UTC]",
+      "location-long": "float64",
+      "location-lat": "float64",
+      "individual-local-identifier": "str",
+      "LULC_class": "float64",
+      "aspect_deg": "float64",
+      "human_settle": "float64",
+      "elevation_m": "float64",
+      "slope_deg": "float64",
+      "EVI": "float64",
+      "LST_celsius": "float64",
+      "NDVI": "float64"
+    },
+    "time_range_utc": [
+      "2008-10-28 00:00:38+00:00",
+      "2014-03-28 12:00:59+00:00"
+    ],
+    "spatial_bounding_box": {
+      "lat_min": -19.4818339,
+      "lat_max": -18.48518473,
+      "lon_min": 14.45289917,
+      "lon_max": 16.94915568
+    },
+    "row_meaning": "Each row is one GPS fix for one elephant at one timestamp, with environmental covariates sampled at that location/time. Cleaned: quality-filtered, region-clipped, speed-filtered, covariate-imputed; unusable/constant/redundant columns removed."
+  },
+  "rows_per_elephant": {
+    "LA26": 321015,
+    "LA11": 317848,
+    "LA14": 210265,
+    "LA13": 207857,
+    "LA12": 206981,
+    "LA3": 140651,
+    "LA7": 136577,
+    "LA2": 130781,
+    "LA8": 119734,
+    "LA6": 87403,
+    "LA1": 69678,
+    "LA4": 59455,
+    "LA27": 55399,
+    "LA5": 39089,
+    "LA15": 11203
+  },
+  "tracking_period_per_elephant": {
+    "LA1": [
+      "2008-10-28 00:00:48+00:00",
+      "2010-02-07 14:00:00+00:00"
+    ],
+    "LA11": [
+      "2009-07-31 00:00:52+00:00",
+      "2013-07-16 22:01:12+00:00"
+    ],
+    "LA12": [
+      "2009-07-31 00:00:52+00:00",
+      "2012-01-19 23:41:35+00:00"
+    ],
+    "LA13": [
+      "2009-07-31 00:00:34+00:00",
+      "2012-01-19 23:41:05+00:00"
+    ],
+    "LA14": [
+      "2009-07-31 00:00:00+00:00",
+      "2013-09-23 00:01:00+00:00"
+    ],
+    "LA15": [
+      "2009-07-31 00:00:00+00:00",
+      "2009-10-17 03:21:00+00:00"
+    ],
+    "LA2": [
+      "2008-10-28 00:00:48+00:00",
+      "2010-07-10 00:01:00+00:00"
+    ],
+    "LA26": [
+      "2009-10-07 00:00:00+00:00",
+      "2014-03-28 12:00:59+00:00"
+    ],
+    "LA27": [
+      "2009-10-07 00:00:00+00:00",
+      "2010-06-12 04:01:00+00:00"
+    ],
+    "LA3": [
+      "2008-10-28 00:00:48+00:00",
+      "2010-08-15 23:41:18+00:00"
+    ],
+    "LA4": [
+      "2008-10-28 00:00:38+00:00",
+      "2010-01-14 00:01:18+00:00"
+    ],
+    "LA5": [
+      "2008-10-29 00:00:38+00:00",
+      "2009-06-23 03:01:08+00:00"
+    ],
+    "LA6": [
+      "2008-10-29 00:00:48+00:00",
+      "2010-01-14 12:01:24+00:00"
+    ],
+    "LA7": [
+      "2008-10-30 00:00:38+00:00",
+      "2010-08-21 23:41:20+00:00"
+    ],
+    "LA8": [
+      "2008-10-30 00:00:38+00:00",
+      "2010-08-15 23:41:48+00:00"
+    ]
+  },
+  "missing_data_counts": {
+    "event-id": 0,
+    "timestamp": 0,
+    "location-long": 0,
+    "location-lat": 0,
+    "individual-local-identifier": 0,
+    "LULC_class": 0,
+    "aspect_deg": 0,
+    "human_settle": 0,
+    "elevation_m": 0,
+    "slope_deg": 0,
+    "EVI": 0,
+    "LST_celsius": 0,
+    "NDVI": 0
+  },
+  "missing_data_pct": {
+    "event-id": 0.0,
+    "timestamp": 0.0,
+    "location-long": 0.0,
+    "location-lat": 0.0,
+    "individual-local-identifier": 0.0,
+    "LULC_class": 0.0,
+    "aspect_deg": 0.0,
+    "human_settle": 0.0,
+    "elevation_m": 0.0,
+    "slope_deg": 0.0,
+    "EVI": 0.0,
+    "LST_celsius": 0.0,
+    "NDVI": 0.0
+  },
+  "sampling_interval_seconds": {
+    "median_seconds": 60.0,
+    "mean_seconds": 445.94804867353133,
+    "p10_seconds": 10.0,
+    "p90_seconds": 1170.0,
+    "min_seconds": 2.0,
+    "max_seconds": 8298582.0,
+    "n_intervals_sampled": 2113921
+  }
+}

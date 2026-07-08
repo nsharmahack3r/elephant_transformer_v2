@@ -2,6 +2,7 @@
 .commandcode
 .pytest_cache
 .env
-data
+./data
 checkpoints
 plan.md
+cleaned.csv
