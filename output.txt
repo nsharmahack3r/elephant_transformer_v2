@@ -1,0 +1,3 @@
+usage: run_train.py [-h] [--data DATA] [--config CONFIG] [--device DEVICE]
+                    [--checkpoint CHECKPOINT]
+run_train.py: error: unrecognized arguments: ; echo DONE:$LASTEXITCODE

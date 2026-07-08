@@ -1,0 +1,7 @@
+.venv
+.commandcode
+.pytest_cache
+.env
+data
+checkpoints
+plan.md

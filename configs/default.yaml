@@ -1,0 +1,35 @@
+data:
+  context_len: 32
+  horizon: 16
+  gap_threshold_hours: 6.0
+
+model:
+  d_model: 256
+  n_layers: 4
+  n_heads: 8
+  dropout: 0.1
+  n_mixtures: 5
+
+train:
+  lr: 0.0003
+  max_epochs: 100
+  warmup_steps: 1000
+  weight_decay: 0.01
+  grad_clip: 1.0
+  batch_size: 64
+  num_workers: 0
+  val_every_n_epochs: 1
+  augment_rotate: true
+  augment_jitter: true
+  augment_subsample: true
+  fixed_val_elephants: ["LA2", "LA8"]
+  fixed_test_elephants: ["LA15"]
+
+eval:
+  n_samples: 50
+  max_speed_mps: 7.0
+  best_of_k: 10
+  n_clusters: 10
+  plot_n_examples: 5
+
+seed: 42
